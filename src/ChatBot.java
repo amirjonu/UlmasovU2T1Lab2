@@ -44,5 +44,11 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
+
+    public void cats(){
+        System.out.println("You know I really love cats. They are so fluffy.");
+    }
+
+    public String life(String name1){ return "You know life is tough. It is harsh at times but you gotta prevail. You have to be you to succeed. So "+ name1+ " ,be who you are and be awesome";}
 }
 
